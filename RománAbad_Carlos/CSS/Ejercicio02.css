@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    letter-spacing: 15px;
+    background-color:rgb(1, 77, 1);
+}
+
+h2{
+    text-align: right;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.foto{
+    text-align: center;
+}
+body{
+    color: aliceblue;
+    background-color: green;
+}
+
+.resu{
+    text-align: right;
+}
+.resumen{
+    text-align: right;
+}
+.subtitulo{
+    text-align: right;
+}
+

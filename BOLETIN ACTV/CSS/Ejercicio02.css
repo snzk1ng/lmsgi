@@ -1,0 +1,25 @@
+@font-face {
+    font-family:"p";
+    src: url(../FUENTES/kristen-itc.ttf);
+}
+
+p{
+
+font-family: "p";
+height:565px;
+width: 800px;
+
+background-image: url(../IMG/fondo_jovenes.png),url(../IMG/fondo_trama.png);
+font-size:35pt;
+font-variant: small-caps;
+border-radius: 50px;
+text-align: center;
+background-size: 85%, 100%;
+background-repeat: no-repeat, repeat;
+color:white;
+font-size: 35pt;
+text-align: center;
+padding: 100px ;
+padding-top: 50px;
+background-position: bottom , top;
+}

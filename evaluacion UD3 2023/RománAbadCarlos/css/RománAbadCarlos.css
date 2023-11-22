@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Urban";
+    src: url(../fonts/UrbanElegance.ttf);
+}
+
+body{
+    color: rgb(242, 242, 242);
+}
+
+
+h1{
+    color: rgb(0, 68,98);
+    font-weight: 2em;
+    text-decoration: none;
+    letter-spacing: 4pt;
+}
+
+h2{
+    font-family:"Urban";
+    font-size:1.3em;
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+
+
+}
+.informe{
+
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing:2pt;
+    text-align: right;
+    color: rgb(142,142,142)
+    
+}
+.foto{
+    text-align: center  ;
+}
+p{
+
+font-family: 'Times New Roman', Times, serif;
+font-size: 0.95em;
+color: rgb(124,124,124);
+
+
+}
+
+.i{
+
+    font-style: italic;
+
+}
