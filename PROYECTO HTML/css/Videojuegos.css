@@ -1,0 +1,144 @@
+*{
+	color: #b39b00;
+	font-family: Calibri;
+	box-sizing: border-box;
+}
+
+body{	
+	margin:0px auto; /* para forzar la posición de la cabecera pegada al borde de la pantalla */
+	width: 85%;
+	min-width: 700px;
+	max-width: 1200px;
+}
+
+header img{
+	width: 100%;
+}
+
+header nav ul{
+    background-color: rgb(0, 208, 194);
+	list-style-type: none;
+	
+	width: 100%;	
+	height: 60px;
+	margin-top: -4px;		
+	padding-left: 0px;
+	
+	display: flex;
+}
+
+nav li{	
+	font-size: 16pt;
+	text-align: center;	
+	
+	flex: 1 1 25%;		
+	padding-top: 17px;		
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+}
+
+#contenido{
+	display: flex;
+}
+
+#contenido aside{
+	flex:0 0 20%;
+}
+
+#contenido aside li{
+	font-size: 16pt;
+	list-style-type: none;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#contenido aside #publi{
+    background-color: rgb(0, 208, 194);
+	text-align: center;	
+
+	width: 90%;
+	height: 120px;
+	padding-top: 5%;
+	margin: 10px;
+}
+
+#contenido main{
+	flex:0 0 80%;	
+	border-left: 1px solid #FEDC00;
+	padding: 2px 3%;
+}
+
+#contenido main h3{
+	font-size: 20pt;
+	font-weight: normal;
+	margin:4px auto;
+}
+
+#contenido main h4{
+	font-size: 10pt;
+	font-weight: normal;
+	border-bottom: 1px solid #FEDC00;
+	margin:4px auto;
+}
+
+#contenido main section{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#contenido main section article{
+	  background-color: rgb(0, 208, 194);
+	border:0 solid transparent;
+	border-radius: 15px;
+
+	flex:0 0 30%;		
+	margin:1%;
+}
+
+#contenido main section article p{
+	color: white;
+	font-size: 12pt;
+
+	width: 85%;
+	margin: 20px auto;	
+}
+
+#contenido main section article img{
+	width: 100%;	
+}
+
+#contenido main section article .precio{
+	text-align: right;
+	font-size: 18pt;
+	font-weight: bolder;
+}
+
+#contenido main section article .boton{
+	background-color: rgb(24, 185, 126);
+    
+	text-align: center;
+	font-weight: bolder;
+	font-size: 14pt;
+	border-radius: 5px;
+
+	width: 50%;
+	padding: 5px;	
+}
+
+footer{
+    background-color: rgb(0, 208, 194);
+	font-size: 12pt;	
+	color: white;
+	text-align: center;
+
+	width: 100%;
+	padding-top:10px;
+	padding-bottom:10px;	
+}
+
+
+
+

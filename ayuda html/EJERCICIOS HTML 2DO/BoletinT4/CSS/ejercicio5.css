@@ -57,7 +57,7 @@ header{
     font-size: x-large;
 }
 
-#envoltorio aside{
+#envoltorio aside {
     flex: 1 1 25%; 
     background-color:royalblue;
     color: white;
