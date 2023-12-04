@@ -1,0 +1,6 @@
+H1:hover+p{
+    font-size: 50px;
+    
+    font-style: italic;
+    display: none;
+}
